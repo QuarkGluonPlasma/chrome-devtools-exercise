@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        #box {
+            width: 300px;
+            height: 300px;
+            background: blue;
+        }
+        a {
+            color: #fff;
+        }
+        .box {
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    </div>
+    <script>
+        function add(a, b) {
+            return a + b;
+        } 
+        function subtract(a, b) {
+            return a - b;
+        }
+        function multiply(a, b) {
+            return a * b;
+        }
+        function divide(a, b) {
+            return a / b;
+        }
+
+        document.querySelector('#box').addEventListener('click' ,() => {
+            console.log(subtract(3,2 ));
+        })
+
+        const res = add(3, 5);
+        console.log(res);
+
+        const res2 = multiply(2, 4);
+        console.log(res2);
+    </script>
+</body>
+</html>

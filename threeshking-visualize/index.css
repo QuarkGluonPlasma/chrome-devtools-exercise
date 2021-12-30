@@ -1,0 +1,11 @@
+#box {
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+a {
+    color: #fff;
+}
+.box {
+    background: pink;
+}
