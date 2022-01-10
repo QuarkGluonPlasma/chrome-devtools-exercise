@@ -6,6 +6,8 @@ chrome devtools 练习
 
 [可视化代码使用情况](./usage-visualize)
 
+[证明 string 内存分配方式](./string-alloc)
+
 # 运行
 
 
