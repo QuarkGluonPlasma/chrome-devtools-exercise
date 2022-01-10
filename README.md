@@ -4,6 +4,7 @@ chrome devtools 练习
 
 [用 worker 做网页性能优化](./worker-performance-optimization)
 
+[可视化代码使用情况](./usage-visualize)
 
 # 运行
 
